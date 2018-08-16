@@ -1,5 +1,5 @@
 Package: mscstts
-Version: 0.2.2
+Version: 0.3.0
 Title: R Client for the Microsoft Cognitive Services 'Text-to-Speech'
         REST API
 Description: R Client for the Microsoft Cognitive Services 
@@ -20,11 +20,11 @@ Type: Package
 Suggests: knitr, rmarkdown, covr, tuneR, testthat
 URL: https://github.com/muschellij2/mscstts
 BugReports: https://github.com/muschellij2/mscstts/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
 Imports: httr, jsonlite
 NeedsCompilation: no
-Packaged: 2018-07-02 15:16:22 UTC; johnmuschelli
+Packaged: 2018-08-16 22:26:56 UTC; johnmuschelli
 Author: John Muschelli [aut, cre] (<https://orcid.org/0000-0001-6469-1750>)
 Maintainer: John Muschelli <muschellij2@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-07-05 09:20:10 UTC
+Date/Publication: 2018-08-16 22:40:03 UTC

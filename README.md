@@ -19,9 +19,25 @@ properly.
 See the documentation here:
 <https://docs.microsoft.com/en-us/azure/cognitive-services/speech/home>
 
+## Getting an API key
+
 You can get a TTS API key here:
 <https://azure.microsoft.com/en-us/try/cognitive-services/>. The API you
-need to get one from is Bing Speech.
+need to get one from is Bing Speech. (This will be deprecated\! See
+below)
+
+1.  Create an Azure account
+2.  Go to
+    <https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices>.
+    If that works, skip to step 5.
+3.  Go to <https://portal.azure.com/#home>
+4.  Click `+ Create a Resource`
+5.  Search “Speech”
+6.  Hit `+ Create`
+7.  Should be able to create an F0 account (which is free - see below)
+    if you hit the pricing tiers
+
+![](man/figures/README-f0.png)<!-- -->
 
 ## Installation
 
@@ -36,11 +52,11 @@ remotes::install_github("muschellij2/mscstts")
 
 ``` r
 library(mscstts)
-if (have_ms_tts_key()) {
+if (ms_have_tts_key()) {
   res = ms_synthesize(
     script = "hey, how are you doing? I'm doing pretty good",
     output_format = "audio-16khz-128kbitrate-mono-mp3")
-  tmp <- "example.mp3"
+  tmp <- tempfile("example", fileext = ".mp3")
   writeBin(res$content, con = tmp)
   mp3 = tuneR::readMP3(tmp)
 }

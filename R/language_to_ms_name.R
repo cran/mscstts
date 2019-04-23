@@ -7,22 +7,23 @@
 #' @export
 #'
 #' @examples
-#' language_to_ms_name()
-#' validate_language_gender()
-language_to_ms_name = function(
+#' ms_language_to_ms_name()
+#' ms_validate_language_gender()
+ms_language_to_ms_name = function(
   language =  "en-US",
   gender = c("Female", "Male")) {
 
-  L = validate_language_gender(
+  L = ms_validate_language_gender(
     language = language,
     gender = gender)
   xname = L$full_name
+  xname = xname[1]
   return(xname)
 }
 
-#' @rdname language_to_ms_name
+#' @rdname ms_language_to_ms_name
 #' @export
-validate_language_gender = function(
+ms_validate_language_gender = function(
   language =  "en-US",
   gender = c("Female", "Male")) {
   locales = ms_locales()
@@ -42,3 +43,5 @@ validate_language_gender = function(
   return(list(language = language, gender = gender,
               full_name = xname))
 }
+
+

@@ -1,4 +1,4 @@
-143ab9fd627adf1337173dbfbbec90ad *DESCRIPTION
+2e5063734cf220ece23a09f9228a7380 *DESCRIPTION
 451fb8ad80e9a1c7fe939c191c0b3eb4 *NAMESPACE
 540c83bb644dd7c65c95c3aae473ba15 *NEWS.md
 41196ff0eb33c96f3e7b698c422ce4a0 *R/create_ssml.R
@@ -8,7 +8,7 @@ ad0e38c2558476bf043e5e05693b9abf *R/ms_locales.R
 16d86a6cdc1f629641116ffb0256484f *R/ms_synthesize.R
 622b50e4d1a74a9d578a4c7dead88ef2 *R/ms_tts_auth.R
 87e313bdf9ae9d748cd6947a3675d229 *R/show.token.R
-8e86822ce6963281755329b5df8af0a4 *README.md
+c89fd8c7dba0fac2ea4d3545a8b5c2ed *README.md
 b3f569df4ac3222e2ebf5f88a1043fac *man/figures/README-f0.png
 8a793437bf7d0b73e42bb5eee2f4ce09 *man/ms_create_ssml.Rd
 f9fc12e0ba190f96c24503d97d61da7e *man/ms_get_tts_key.Rd

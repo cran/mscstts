@@ -60,6 +60,7 @@ ms_synthesize = function(
   ...
 ){
 
+  region = ms_region(region)
   if (!is.null(voice)) {
     L = ms_voice_info(voice)
   } else {
@@ -77,7 +78,8 @@ ms_synthesize = function(
   )
 
   if (is.null(token)) {
-    token = ms_get_tts_token(api_key = api_key)$token
+    token = ms_get_tts_token(api_key = api_key,
+                             region = region)$token
   }
 
   auth_hdr = add_headers(
@@ -167,11 +169,25 @@ ms_region = function(region = ms_regions()) {
 #' @examples
 #' ms_regions()
 ms_regions = function() {
-  c("westus", "eastasia", "northeurope",
+  c("westus",
     "westus2",
+    "australiaeast",
+    "brazilsouth",
+    "canadacentral",
+    "centralus",
+    "eastasia",
     "eastus",
     "eastus2",
+    "francecentral",
+    "centralindia",
+    "japaneast",
+    "japanwest",
+    "koreacentral",
+    "northcentralus",
+    "northeurope",
+    "southcentralus",
     "southeastasia",
+    "uksouth",
     "westeurope")
 }
 

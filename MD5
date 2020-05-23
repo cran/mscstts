@@ -1,10 +1,10 @@
-d5ab245a5d99fb56ed4c6e6ec7cb14c5 *DESCRIPTION
+40dd080b5b9cea01a52c4e7888078d12 *DESCRIPTION
 451fb8ad80e9a1c7fe939c191c0b3eb4 *NAMESPACE
-4cc8dab82f42973e3c2de3e3afcfcf0a *NEWS.md
+761c0a3c8df0141e12db9f77aa0c8246 *NEWS.md
 7e1a0cdae2ec93c193ccad668e0b3f86 *R/create_ssml.R
 bf1064550d52a3aa7ab2bfca6348da9d *R/language_to_ms_name.R
 a4acd30239ff8295b0b6acb30f5fbe0a *R/ms_list_voices.R
-f52b843ce4e0aba4e8e9fee1052ede33 *R/ms_locales.R
+480474820897bbcd5ba2f0967a99eb77 *R/ms_locales.R
 d1dfab97945e3ebe9464b3640c64192d *R/ms_synthesize.R
 622b50e4d1a74a9d578a4c7dead88ef2 *R/ms_tts_auth.R
 87e313bdf9ae9d748cd6947a3675d229 *R/show.token.R

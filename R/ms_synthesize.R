@@ -12,7 +12,7 @@
 #' @param language Language to be spoken,
 #' must be from \code{\link{ms_language_codes}}
 #' @param output_format Format of the output, see
-#' \url{https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoiceoutput}
+#' \url{https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/how-to-migrate-from-bing-speech}
 #' for more information
 #' @param escape Should non-standard characters be substituted?  Should not
 #' be used if \code{script} has SSML tags. See \code{\link{ms_create_ssml}}
@@ -156,7 +156,7 @@ ms_read_synthesis = function(output) {
 
 #' @rdname ms_synthesize
 #' @param region Subscription region for your key.
-#' See \url{https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/rest-apis#text-to-speech}
+#' See \url{https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/overview#reference-docs}
 #'
 #' @export
 ms_region = function(region = ms_regions()) {

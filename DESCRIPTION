@@ -1,6 +1,6 @@
 Type: Package
 Package: mscstts
-Version: 0.6.1
+Version: 0.6.2
 Title: R Client for the Microsoft Cognitive Services 'Text-to-Speech'
         REST API
 Description: R Client for the Microsoft Cognitive Services 
@@ -24,8 +24,8 @@ RoxygenNote: 7.1.1
 Imports: httr, jsonlite, tuneR
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2020-10-02 17:06:21 UTC; johnmuschelli
+Packaged: 2020-10-28 15:12:01 UTC; johnmuschelli
 Author: John Muschelli [aut, cre] (<https://orcid.org/0000-0001-6469-1750>)
 Maintainer: John Muschelli <muschellij2@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-10-03 05:10:02 UTC
+Date/Publication: 2020-10-28 15:50:02 UTC
